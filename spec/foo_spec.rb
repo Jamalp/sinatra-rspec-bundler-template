@@ -1,7 +1,7 @@
 require 'spec_helper'
 
 describe Foobar::Foo do
-  
+
   def app
     @app ||= Foobar::Foo
   end
@@ -12,4 +12,6 @@ describe Foobar::Foo do
       last_response.should be_ok
     end
   end
+
+
 end

@@ -10,5 +10,9 @@ module Foobar
       "Hello from foo"
     end
 
+    get '/multiply/:x/:y' do
+      params[:x] * params[:y]
+    end
+
   end
 end
